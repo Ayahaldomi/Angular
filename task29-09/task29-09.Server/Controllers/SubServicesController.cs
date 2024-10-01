@@ -22,7 +22,7 @@ namespace task29_09.Server.Controllers
             return Ok(SubService);
         }
         /////////////////////////////////////////////////////////////////////////////
-        [HttpGet("GetSubServicesbyID{id}")]
+        [HttpGet("GetSubServicesbyID/{id}")]
         public IActionResult GetSubServicesbyID(int id)
         {
             var SubService = _db.SubServices.Where(x => x.SubServiceId == id).ToList();

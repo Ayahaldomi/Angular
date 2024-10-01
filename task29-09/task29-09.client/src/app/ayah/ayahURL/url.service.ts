@@ -17,4 +17,28 @@ export class UrlService {
   getsubServicesbyServiceId(id: any): Observable<any> {
     return this.http.get<any>(`${this.staticData}/SubServices/GetSubServicesbyServiceID/${id}`);
   }
+
+  getSubscription(): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/Subscribrion`)
+  }
+
+  getSubServiceDetails(id: any): Observable<any> {
+
+    return this.http.get<any>(`${this.staticData}/SubServices/GetSubServicesbyID/${id}`);
+  }
+
+
+  // the Data Will Get From the function in the service subscribtion
+  addUSerSubScription(data: any): Observable<any> {
+    return this.http.post<any>(`${this.staticData}/UserSubscription`, data)
+  }
+
+  
+  addUser(data: any): Observable<any> {
+    return this.http.post<any>(`${this.staticData}/User`, data)
+  }
+
+  logInuser(data: any): Observable<any> {
+    return this.http.post<any>(`${this.staticData}/User/LogIn`, data)
+  }
 }

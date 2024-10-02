@@ -21,3 +21,17 @@
 <!--Tow Way Binding the Change Will Run in Tow way-->
 <!-- Should Set This in app.module.ts ((FormsModule)) To identifies Tow way Binding-->
 <input type="number" value="{{number}}" [(ngModel)]="number" />
+
+
+<hr />
+<h1 [ngStyle]="{'backgroundColor': userobj.color}">{{userobj.name}}</h1>
+
+<hr />
+<h2 [ngStyle]="{'color': userobj.color}">{{userobj.name}}</h2>
+<hr />
+
+<div *ngFor="let item of usersArray" [ngClass]="{'greenColor': item.age > 15, 'redColor': item.age <= 15}">
+  <p>{{item.name}}</p>
+  <p>{{item.age}}</p>
+  <p>{{item.food}}</p>
+</div>

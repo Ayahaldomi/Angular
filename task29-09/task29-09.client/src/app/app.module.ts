@@ -16,6 +16,10 @@ import { SubservicedetailsComponent } from './ayah/subservicedetails/subserviced
 import { LectureComponent } from './ayah/lecture/lecture.component';
 import { RegistrationComponent } from './ayah/registration/registration.component';
 import { LogInComponent } from './ayah/log-in/log-in.component';
+import { DashBoardComponent } from './ayah/ADMIN/dash-board/dash-board.component';
+import { AddServiceComponent } from './ayah/ADMIN/add-service/add-service.component';
+import { ServicesAdminComponent } from './ayah/ADMIN/services-admin/services-admin.component';
+import { EditServicesComponent } from './ayah/ADMIN/edit-services/edit-services.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { LogInComponent } from './ayah/log-in/log-in.component';
     SubservicedetailsComponent,
     LectureComponent,
     RegistrationComponent,
-    LogInComponent
+    LogInComponent,
+    DashBoardComponent,
+    AddServiceComponent,
+    ServicesAdminComponent,
+    EditServicesComponent
   ],
   imports: [
     FormsModule,
@@ -42,7 +50,13 @@ import { LogInComponent } from './ayah/log-in/log-in.component';
       { path: "subscribtion", component: SubscribrionComponent },
       { path: "details/:id", component: SubservicedetailsComponent },
       { path: "Registration", component: RegistrationComponent },
-      { path: "LogIn", component: LogInComponent }
+      { path: "LogIn", component: LogInComponent },
+      {
+        path: "DashBoard", component: DashBoardComponent, children:[
+          { path: "AddService", component: AddServiceComponent },
+          { path: "AllServices", component: ServicesAdminComponent }
+      ]},
+      
     ])
   ],
   providers: [],

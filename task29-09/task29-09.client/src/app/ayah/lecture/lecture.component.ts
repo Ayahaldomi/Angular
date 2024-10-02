@@ -15,5 +15,27 @@ export class LectureComponent {
     this.name = "Rawaa";
   }
 
+  userobj = {
+    name: "ayah",
+    age: 28,
+    color: "red",
+  }
+
+  usersArray = [{
+    name: "ayah",
+    age: 28,
+    food: "egg",
+  },
+    {
+      name: "hadeel",
+      age: 19,
+      food: "egg",
+    },
+    {
+      name: "rahaf",
+      age: 10,
+      food: "egg",
+    }]
+
 
 }

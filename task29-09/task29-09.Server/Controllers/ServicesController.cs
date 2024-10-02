@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using task29_09.Server.DTOs;
 using task29_09.Server.Models;
 
 namespace task29_09.Server.Controllers
@@ -23,5 +24,36 @@ namespace task29_09.Server.Controllers
             return Ok(services);
         }
         ////////////////////////////////////////////////////////////////////////////////////////
+        ///
+
+        [HttpPost]
+        public IActionResult addService([FromForm] addServiceDTO serviceDTO) 
+        {
+
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "UploadImages");
+            if (!Directory.Exists(folder)) { 
+                Directory.CreateDirectory(folder);
+            }
+            var imageFile = Path.Combine(folder , serviceDTO.ServiceImage.FileName);
+
+            using (var stream = new FileStream(imageFile, FileMode.Create)) { 
+                serviceDTO.ServiceImage.CopyToAsync(stream);
+            }
+            var newService = new Service
+            {
+                ServiceName = serviceDTO.ServiceName,
+                ServiceDescription = serviceDTO.ServiceDescription,
+                ServiceImage = serviceDTO.ServiceImage.FileName,
+            };
+            _db.Services.Add(newService);
+            _db.SaveChanges();
+            return Ok(newService); 
+        }
+
+        //[HttpPut("editService/{id}")]
+        //public IActionResult EditService(int id, [FromForm] addServiceDTO serviceDTO)
+        //{
+            
+        //}
     }
 }

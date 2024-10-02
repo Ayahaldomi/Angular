@@ -22,9 +22,15 @@ export class LogInComponent {
     for (let key in data) {
       form.append(key, data[key])
     }
-    this._ser.logInuser(form).subscribe(() => {
+    this._ser.logInuser(form).subscribe((response: any) => {
       alert("user added sucssfully")
-      this._router.navigate(['/service'])
+      debugger;
+      if (response.email == "admin22@gmail.com") {
+        this._router.navigate(['/DashBoard'])
+      } else {
+        this._router.navigate(['/service'])
+      }
+      
     },
       (error) => {
         alert(error.error)

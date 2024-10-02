@@ -40,7 +40,11 @@ namespace task29_09.Server.Controllers
             if (logedUser == null) {
                 return BadRequest("Wrong Data");
             }
-            return Ok();
+
+           
+                return Ok(logedUser);
+            
+          
         }
     }
 }

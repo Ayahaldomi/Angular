@@ -41,4 +41,8 @@ export class UrlService {
   logInuser(data: any): Observable<any> {
     return this.http.post<any>(`${this.staticData}/User/LogIn`, data)
   }
+
+  addServiceAPI(data: any): Observable<any> {
+    return this.http.post<any>(`${this.staticData}/Services`, data)
+  }
 }

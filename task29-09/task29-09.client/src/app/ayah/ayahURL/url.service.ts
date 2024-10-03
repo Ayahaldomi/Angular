@@ -45,4 +45,9 @@ export class UrlService {
   addServiceAPI(data: any): Observable<any> {
     return this.http.post<any>(`${this.staticData}/Services`, data)
   }
+
+
+  PUTService(id: any ,data: any): Observable<any> {
+    return this.http.put<any>(`${this.staticData}/Services/editService/${id}`, data)
+  }
 }

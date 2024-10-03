@@ -13,7 +13,6 @@ export class AddServiceComponent {
 
   image: any 
   changeImage(event: any) {
-    debugger;
     this.image = event.target.files[0];
   }
 

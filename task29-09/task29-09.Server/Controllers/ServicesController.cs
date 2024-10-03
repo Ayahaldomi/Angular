@@ -20,23 +20,25 @@ namespace task29_09.Server.Controllers
         public IActionResult GetAllServices()
         {
             var services = _db.Services.ToList();
-            
+
             return Ok(services);
         }
         ////////////////////////////////////////////////////////////////////////////////////////
         ///
 
         [HttpPost]
-        public IActionResult addService([FromForm] addServiceDTO serviceDTO) 
+        public IActionResult addService([FromForm] addServiceDTO serviceDTO)
         {
 
             var folder = Path.Combine(Directory.GetCurrentDirectory(), "UploadImages");
-            if (!Directory.Exists(folder)) { 
+            if (!Directory.Exists(folder))
+            {
                 Directory.CreateDirectory(folder);
             }
-            var imageFile = Path.Combine(folder , serviceDTO.ServiceImage.FileName);
+            var imageFile = Path.Combine(folder, serviceDTO.ServiceImage.FileName);
 
-            using (var stream = new FileStream(imageFile, FileMode.Create)) { 
+            using (var stream = new FileStream(imageFile, FileMode.Create))
+            {
                 serviceDTO.ServiceImage.CopyToAsync(stream);
             }
             var newService = new Service
@@ -47,13 +49,31 @@ namespace task29_09.Server.Controllers
             };
             _db.Services.Add(newService);
             _db.SaveChanges();
-            return Ok(newService); 
+            return Ok(newService);
         }
 
-        //[HttpPut("editService/{id}")]
-        //public IActionResult EditService(int id, [FromForm] addServiceDTO serviceDTO)
-        //{
-            
-        //}
+        [HttpPut("editService/{id}")]
+        public IActionResult EditService(int id, [FromForm] addServiceDTO serviceDTO)
+        {
+            var service = _db.Services.Find(id);
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "UploadImages");
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            var imageFile = Path.Combine(folder, serviceDTO.ServiceImage.FileName);
+
+            using (var stream = new FileStream(imageFile, FileMode.Create))
+            {
+                serviceDTO.ServiceImage.CopyToAsync(stream);
+            }
+
+            service.ServiceName = serviceDTO.ServiceName;
+            service.ServiceDescription = serviceDTO.ServiceDescription;
+            service.ServiceImage = serviceDTO.ServiceImage.FileName;
+            _db.Services.Update(service);
+            _db.SaveChanges();
+            return Ok(service);
+        }
     }
 }

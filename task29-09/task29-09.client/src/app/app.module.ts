@@ -54,7 +54,8 @@ import { EditServicesComponent } from './ayah/ADMIN/edit-services/edit-services.
       {
         path: "DashBoard", component: DashBoardComponent, children:[
           { path: "AddService", component: AddServiceComponent },
-          { path: "AllServices", component: ServicesAdminComponent }
+          { path: "AllServices", component: ServicesAdminComponent },
+          { path: "EditService/:id", component: EditServicesComponent }
       ]},
       
     ])

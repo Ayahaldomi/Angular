@@ -3,72 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\admin\\services-admin\\services-admin.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\admin\\services-admin\\services-admin.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08286DD-58C6-40DE-AEC1-BD29D535BCBF}|task29-09.Server\\task29-09.Server.csproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.server\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08286DD-58C6-40DE-AEC1-BD29D535BCBF}|task29-09.Server\\task29-09.Server.csproj|solutionrelative:task29-09.server\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ayahurl\\url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\ayahurl\\url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\admin\\edit-services\\edit-services.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\admin\\edit-services\\edit-services.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\admin\\edit-services\\edit-services.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\admin\\edit-services\\edit-services.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\admin\\add-service\\add-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\admin\\add-service\\add-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\admin\\add-service\\add-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\admin\\add-service\\add-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08286DD-58C6-40DE-AEC1-BD29D535BCBF}|task29-09.Server\\task29-09.Server.csproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08286DD-58C6-40DE-AEC1-BD29D535BCBF}|task29-09.Server\\task29-09.Server.csproj|solutionrelative:task29-09.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\registration\\registration.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\registration\\registration.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\subscribrion\\subscribrion.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|",
+      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\subscribrion\\subscribrion.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\service\\service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\service\\service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\admin\\dash-board\\dash-board.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\admin\\dash-board\\dash-board.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08286DD-58C6-40DE-AEC1-BD29D535BCBF}|task29-09.Server\\task29-09.Server.csproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.server\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08286DD-58C6-40DE-AEC1-BD29D535BCBF}|task29-09.Server\\task29-09.Server.csproj|solutionrelative:task29-09.server\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|c:\\users\\orange\\desktop\\angular\\angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{111D139C-855A-4910-A9DA-4D0D696BF39E}|task29-09.client\\task29-09.client.esproj|solutionrelative:task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,213 +43,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "services-admin.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\services-admin\\services-admin.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ADMIN\\services-admin\\services-admin.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\services-admin\\services-admin.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ADMIN\\services-admin\\services-admin.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-03T10:33:36.352Z",
+              "Title": "log-in.component.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.css",
+              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.css",
+              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-06T18:10:32.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServicesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.Server\\Controllers\\ServicesController.cs",
-              "RelativeDocumentMoniker": "task29-09.Server\\Controllers\\ServicesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.Server\\Controllers\\ServicesController.cs",
-              "RelativeToolTip": "task29-09.Server\\Controllers\\ServicesController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAIAwwDgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T10:30:18.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "url.service.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ayahURL\\url.service.ts",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ayahURL\\url.service.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ayahURL\\url.service.ts",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ayahURL\\url.service.ts",
-              "ViewState": "AQIAACUAAAAAAAAAAIAwwDIAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-03T10:30:18.311Z",
+              "Title": "log-in.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.html",
+              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.html",
+              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.html",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-06T18:06:08.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "edit-services.component.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.ts",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.ts",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.ts",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBUAAAAEAAAA",
+              "Title": "subscribrion.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\subscribrion\\subscribrion.component.ts",
+              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\subscribrion\\subscribrion.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\subscribrion\\subscribrion.component.ts",
+              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\subscribrion\\subscribrion.component.ts",
+              "ViewState": "AQIAACAAAAAAAAAAAIAwwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-03T09:46:44.357Z",
+              "WhenOpened": "2024-10-06T18:01:03.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "edit-services.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ADMIN\\edit-services\\edit-services.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-03T09:36:45.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "add-service.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.html",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T09:48:24.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.Server\\Program.cs",
-              "RelativeDocumentMoniker": "task29-09.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.Server\\Program.cs",
-              "RelativeToolTip": "task29-09.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T12:36:34.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "log-in.component.ts",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts",
               "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts",
               "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\log-in\\log-in.component.ts",
-              "ViewState": "AQIAAA0AAAAAAAAAAIA/wBoAAAAGAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-02T12:00:18.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "add-service.component.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.ts",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.ts",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ADMIN\\add-service\\add-service.component.ts",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-02T09:58:46.865Z",
+              "WhenOpened": "2024-10-06T17:57:55.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "registration.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\registration\\registration.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\registration\\registration.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\registration\\registration.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\registration\\registration.component.html",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T11:48:40.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "nav-bar.component.html",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.html",
               "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.html",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.html",
               "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.html",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABPAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T12:12:22.826Z"
+              "WhenOpened": "2024-10-06T17:47:39.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "service.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\service\\service.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\service\\service.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\service\\service.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\service\\service.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T10:33:04.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "dash-board.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\dash-board\\dash-board.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\ADMIN\\dash-board\\dash-board.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\ADMIN\\dash-board\\dash-board.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\ADMIN\\dash-board\\dash-board.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T10:31:43.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.Server\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "task29-09.Server\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.Server\\Models\\Service.cs",
-              "RelativeToolTip": "task29-09.Server\\Models\\Service.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T08:47:00.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "lecture.component.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.css",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.css",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-02T08:39:45.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "lecture.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.html",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.html",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.html",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.html",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-02T08:11:40.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "lecture.component.ts",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.ts",
-              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.ts",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.ts",
-              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\lecture\\lecture.component.ts",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBMAAAAHAAAA",
+              "DocumentIndex": 4,
+              "Title": "nav-bar.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.ts",
+              "RelativeDocumentMoniker": "task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\angular\\Angular\\task29-09\\task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.ts",
+              "RelativeToolTip": "task29-09.client\\src\\app\\ayah\\nav-bar\\nav-bar.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-02T08:11:47.152Z"
+              "WhenOpened": "2024-10-06T17:47:00.37Z",
+              "EditorCaption": ""
             }
           ]
         }

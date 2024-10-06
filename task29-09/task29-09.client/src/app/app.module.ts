@@ -20,6 +20,7 @@ import { DashBoardComponent } from './ayah/ADMIN/dash-board/dash-board.component
 import { AddServiceComponent } from './ayah/ADMIN/add-service/add-service.component';
 import { ServicesAdminComponent } from './ayah/ADMIN/services-admin/services-admin.component';
 import { EditServicesComponent } from './ayah/ADMIN/edit-services/edit-services.component';
+import { ProfileComponent } from './ayah/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { EditServicesComponent } from './ayah/ADMIN/edit-services/edit-services.
     DashBoardComponent,
     AddServiceComponent,
     ServicesAdminComponent,
-    EditServicesComponent
+    EditServicesComponent,
+    ProfileComponent
   ],
   imports: [
     FormsModule,
@@ -47,10 +49,11 @@ import { EditServicesComponent } from './ayah/ADMIN/edit-services/edit-services.
       { path: "service", component: ServiceComponent },
       { path: "subService/:id", component: SubServiceComponent },
       { path: "lecture", component: LectureComponent },
-      { path: "subscribtion", component: SubscribrionComponent },
+      { path: "subscribtion/:id", component: SubscribrionComponent },
       { path: "details/:id", component: SubservicedetailsComponent },
       { path: "Registration", component: RegistrationComponent },
       { path: "LogIn", component: LogInComponent },
+      { path: "Profile", component: ProfileComponent },
       {
         path: "DashBoard", component: DashBoardComponent, children:[
           { path: "AddService", component: AddServiceComponent },

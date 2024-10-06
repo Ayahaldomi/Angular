@@ -16,6 +16,7 @@ export class SubServiceComponent {
   }
   subServiceData: any
   constructor(private _ser: UrlService, private _route: ActivatedRoute) { }
+
   getsubServices(id: any) {
     this._ser.getsubServicesbyServiceId(id).subscribe((data) => {
       this.subServiceData = data

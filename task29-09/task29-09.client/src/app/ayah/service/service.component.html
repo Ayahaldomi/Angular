@@ -1,8 +1,10 @@
-<div class="card" style="width: 18rem;" *ngFor="let item of servicesArray">
-  <img src="{{item.serviceImage}}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">{{item.serviceName}}</h5>
-    <p class="card-text">{{item.serviceDescription}}</p>
-    <a routerLink="/subService/{{item.serviceId}}" class="btn btn-primary">Go somewhere</a>
+<div class="row">
+  <div class="card" style="width: 18rem;" *ngFor="let item of servicesArray">
+    <img src="https://localhost:7201/api/Services/getImages/{{item.serviceImage}}" width="200" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{item.serviceName}}</h5>
+      <p class="card-text">{{item.serviceDescription}}</p>
+      <a routerLink="/subService/{{item.serviceId}}" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
 </div>

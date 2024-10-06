@@ -24,7 +24,7 @@ export class LogInComponent {
     }
     this._ser.logInuser(form).subscribe((response: any) => {
       alert("user added sucssfully")
-      debugger;
+      this._ser['email'].next(response.email);
       if (response.email == "admin22@gmail.com") {
         this._router.navigate(['/DashBoard'])
       } else {

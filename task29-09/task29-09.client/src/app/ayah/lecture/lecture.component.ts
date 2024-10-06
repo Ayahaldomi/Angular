@@ -10,6 +10,9 @@ export class LectureComponent {
   number: number = 27;
   urlImg: string = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/2048px-Google_Translate_logo.svg.png";
 
+  
+  today: number = Date.now();
+  str: string = 'abcdefghij';
 
   onchangeHadeel() {
     this.name = "Rawaa";

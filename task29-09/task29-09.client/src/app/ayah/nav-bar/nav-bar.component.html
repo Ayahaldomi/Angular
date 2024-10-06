@@ -16,12 +16,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/Contact Us">Contact Us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/Registration">Registration</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/LogIn">LogIn</a>
-        </li>
+       
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/lecture">lecture</a>
         </li>
@@ -31,7 +26,23 @@
 
       </ul>
 
+      <span class="navbar-text">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/Registration" *ngIf="email == ''">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/LogIn" *ngIf="email == ''">LogIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/Profile" *ngIf="email != '' ">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" (click)="logout()" *ngIf="email != '' ">Logout</a>
+          </li>
+          </ul>
+      </span>
 
     </div>
   </div>

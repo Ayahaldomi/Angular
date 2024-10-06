@@ -33,5 +33,27 @@
 <div *ngFor="let item of usersArray" [ngClass]="{'greenColor': item.age > 15, 'redColor': item.age <= 15}">
   <p>{{item.name}}</p>
   <p>{{item.age}}</p>
+  <h1>{{item.age | currency}}</h1>
+
   <p>{{item.food}}</p>
+</div>
+
+
+<h1>{{'ayah' | uppercase}}</h1>
+<h1>{{'AYAH' | lowercase}}</h1>
+<h1>{{10 | currency}}</h1>
+<h1>{{50 | currency:'JOD ':'symbol'}}</h1>
+<h1>{{ 20 | currency:'JOD':'code' }}</h1>
+<h1>{{today | date:'h:mm a z'}}</h1>
+<h1>{{today | date:'fullDate'}}</h1>
+<h1>{{ today | date:"MMM dd, yyyy 'at' hh:mm a" }}</h1>
+
+
+<div>
+  <p>{{ str }}[0:4]: '{{ str | slice: 0 : 4 }}' - output is expected to be 'abcd'</p>
+  <p>{{ str }}[4:0]: '{{ str | slice: 4 : 0 }}' - output is expected to be ''</p>
+  <p>{{ str }}[-4]: '{{ str | slice: -4 }}' - output is expected to be 'ghij'</p>
+  <p>{{ str }}[-4:-2]: '{{ str | slice: -4 : -2 }}' - output is expected to be 'gh'</p>
+  <p>{{ str }}[-100]: '{{ str | slice: -100 }}' - output is expected to be 'abcdefghij'</p>
+  <p>{{ str }}[100]: '{{ str | slice: 100 }}' - output is expected to be ''</p>
 </div>

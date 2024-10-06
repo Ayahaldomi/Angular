@@ -31,7 +31,6 @@ export class SubscribrionComponent {
   }
 
   addUSerSubScription1(id: number) {
-    debugger;
     this.data.subscriptionId = id;
     this._ser.addUSerSubScription(this.data).subscribe(() => {
       alert("User Add Successfully")

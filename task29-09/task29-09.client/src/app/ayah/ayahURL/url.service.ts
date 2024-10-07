@@ -55,4 +55,42 @@ export class UrlService {
   PUTService(id: any ,data: any): Observable<any> {
     return this.http.put<any>(`${this.staticData}/Services/editService/${id}`, data)
   }
+
+  getAllProduct(): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/Product`)
+  }
+
+  cartItem: any = [];
+  cartItemSubject: BehaviorSubject<any> = new BehaviorSubject<any>(this.cartItem); // اسناد داتا 
+  cartItemObser = this.cartItemSubject.asObservable(); // ناخذ منه الداتا
+
+  addToCart(data: any) {
+    var recod = this.cartItem.find((x: any) => x.productId == data.productId);
+    if (recod) {
+      alert("product already exist")
+    } else {
+      this.cartItem.push(data);
+      this.cartItemSubject.next(this.cartItem);
+    }
+
+   
+  }
+
+  increaseQ(id: any) {
+    var product = this.cartItem.find((x: any) => x.productId == id)
+    if (product) {
+      product.quantity += 1;
+
+      this.cartItemSubject.next(this.cartItem); /// next UPDATES and we use it for behavior subject 
+    }
+  }
+
+  decreaseQ(id: any) {
+    var product = this.cartItem.find((x: any) => x.productId == id)
+    if (product) {
+      product.quantity -= 1;
+
+      this.cartItemSubject.next(this.cartItem); /// next UPDATES and we use it for behavior subject 
+    }
+  }
 }

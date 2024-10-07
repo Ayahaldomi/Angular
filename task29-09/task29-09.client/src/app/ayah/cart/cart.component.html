@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">productId </th>
+      <th scope="col">quantity</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of cart">
+      <td><img src="https://localhost:7201/api/Services/getImages/{{item.serviceImage}}" alt="Service Image" width="100"></td>
+      <td>{{item.productId}}</td>
+      <td><button (click)="minusQ(item.productId)">-</button><input type="number" value="{{item.quantity}}"/><button (click)="incrimentQ(item.productId)">+</button></td>
+      <td>
+        <a routerLink="/DashBoard/EditService/{{item.serviceId}}" class="btn btn-primary">Edit</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

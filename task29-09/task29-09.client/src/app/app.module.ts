@@ -21,6 +21,8 @@ import { AddServiceComponent } from './ayah/ADMIN/add-service/add-service.compon
 import { ServicesAdminComponent } from './ayah/ADMIN/services-admin/services-admin.component';
 import { EditServicesComponent } from './ayah/ADMIN/edit-services/edit-services.component';
 import { ProfileComponent } from './ayah/profile/profile.component';
+import { ProductComponent } from './ayah/product/product.component';
+import { CartComponent } from './ayah/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ProfileComponent } from './ayah/profile/profile.component';
     AddServiceComponent,
     ServicesAdminComponent,
     EditServicesComponent,
-    ProfileComponent
+    ProfileComponent,
+    ProductComponent,
+    CartComponent
   ],
   imports: [
     FormsModule,
@@ -54,6 +58,9 @@ import { ProfileComponent } from './ayah/profile/profile.component';
       { path: "Registration", component: RegistrationComponent },
       { path: "LogIn", component: LogInComponent },
       { path: "Profile", component: ProfileComponent },
+      { path: "Products", component: ProductComponent },
+      { path: "cart", component: CartComponent },
+
       {
         path: "DashBoard", component: DashBoardComponent, children:[
           { path: "AddService", component: AddServiceComponent },

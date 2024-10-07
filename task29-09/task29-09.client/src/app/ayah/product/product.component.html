@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="card" style="width: 18rem;" *ngFor="let item of array">
+    <img src="https://localhost:7201/api/Services/getImages/{{item.productImage}}" width="200" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{item.productName}}</h5>
+      <p class="card-text">{{item.description}}</p>
+      <p class="card-text">{{item.price}}</p>
+      <input type="number" [(ngModel)]="object.quantity" />
+      <button (click)="addToCartProduct(item.productId)">add to cart</button>
+    </div>
+  </div>
+</div>
